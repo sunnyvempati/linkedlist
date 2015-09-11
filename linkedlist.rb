@@ -112,11 +112,6 @@ node1 = LinkedListNode.new(10)
 node2 = LinkedListNode.new(20, node1)
 node3 = LinkedListNode.new(30, node2)
 node4 = LinkedListNode.new(40, node3)
-node5 = LinkedListNode.new(50, node4)
-node6 = LinkedListNode.new(60, node5)
-node7 = LinkedListNode.new(70, node6)
-node8 = LinkedListNode.new(80, node7)
-node9 = LinkedListNode.new(90, node8)
-# node1.next_node = node8
+node1.next_node = node4
 
-puts is_infinite?(node8)
+puts is_infinite?(node4)
